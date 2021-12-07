@@ -3,8 +3,8 @@
   background: linear-gradient(to bottom,  aliceblue 50%, #E7E9EB );
   border-radius: 5px;  
   padding: 4px;
-    margin-top: 2px;
-    color: #493240;
+  margin-top: 2px;
+  color: #493240;
   }
   .Forecast canvas{
   display: block;
@@ -15,9 +15,10 @@
   font-weight: bold;
   }
  .Forecast .forecast-temp-min{
-    padding-left: 6px;
+    padding-left: 2px;
     color: black;
     opacity: 0.6;
   }
+
 
  

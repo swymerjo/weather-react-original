@@ -46,7 +46,7 @@
 
 .Weather .temperature-wrap {
   background: linear-gradient(to bottom,  aliceblue 50%, #E7E9EB );
-  border-radius: 4px;
+  border-radius: 5px;
   padding: 4px;
   margin: 1px;
 }
