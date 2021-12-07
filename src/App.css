@@ -1,0 +1,54 @@
+.App {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.App .footer{
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.App .name-link {
+    color: #FF0099;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  
+  .App .name-link:hover {
+    color: #493240;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  .App .website-link {
+    color: #493240;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  
+  .App .website-link:hover {
+    color: #FF0099;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  
+  .App .open-source-link {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  
+  .App .open-source-link:hover {
+    color: grey;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+@media (max-width:770px) {
+    
+.App .footer {
+        font-size: 11pt;
+        text-align: center;
+      }
+}
