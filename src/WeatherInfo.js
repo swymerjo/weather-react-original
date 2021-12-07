@@ -21,11 +21,11 @@ export default function WeatherInfo(props){
       <div className="row temperature-wrap">
         <div className="col-7 temperature-wrap">
           <div className="clearfix weather-temperature">
-            <WeatherIcon code={props.data.icon} alt="" size={50}/>
+            <WeatherIcon code={props.data.icon} alt="" size={40}/>
             <WeatherTemperature celsius={props.data.temperature}/>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-3">
           <ul>
             <li className="humidity">Humidity: {props.data.humidity}%</li>
             <li className="wind">Wind: {props.data.wind} km/h</li>
