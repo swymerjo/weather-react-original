@@ -15,9 +15,15 @@
   font-weight: bold;
   }
  .Forecast .forecast-temp-min{
-    padding-left: 4px;
+    padding-left: 3px;
     color: black;
     opacity: 0.6;
+  }
+
+  @media (max-width: 770px) {
+    .Forecast .forecast-temp-min, .forecast-temp-max{
+      font-size: 10pt;
+    }
   }
 
 
