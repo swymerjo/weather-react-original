@@ -7,7 +7,7 @@
   background: linear-gradient(to bottom,  #FF0099, #493240 );
 }
 .Weather h1 {
-  color: white;
+  color: aliceblue;
 }
 .Weather .submit-button {
   background:#E7E9EB;
@@ -24,7 +24,7 @@
 .Weather .description-list {
   list-style: none;
   padding: 0;
-  color: white;
+  color: aliceblue;
   margin-bottom: 0;
 }
 .Weather li {
